@@ -33,6 +33,6 @@ require 'clipar'
 
 cli = CLIPar.new
 cli.foo
-# "bar"
+# => "bar"
 
 ```
