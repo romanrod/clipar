@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Handle command line parameters as methods within your code}
   spec.description   = %q{Easy way to pass arguments over command line and get them from your code}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/romanrod/clipar"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
