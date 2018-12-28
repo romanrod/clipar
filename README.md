@@ -23,7 +23,7 @@ Or install it yourself as:
 If you want to pass values to your code from command line like
 
 ```
-cucumber foo=bar
+foo=bar cucumber
 ```
 
 You can do this with CLIPar:
