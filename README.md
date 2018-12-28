@@ -32,7 +32,12 @@ You can do this with CLIPar:
 require 'clipar'
 
 cli = CLIPar.new
+# to get the value of foo
 cli.foo
 # => "bar"
+
+# to ask if foo param was defined
+cli.foo?
+# => true
 
 ```

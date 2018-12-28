@@ -47,11 +47,10 @@ class CLIPar
 
 	# Any parameter name passed through command line will be trated as a method
 	def method_missing meth
-		if win?
-
+		if "#{meth}".end_with? "?"
+			!!@env["#{meth}".chop]
 		else
 			@env["#{meth}"]
 		end
 	end
 end
-
